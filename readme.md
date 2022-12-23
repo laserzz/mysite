@@ -1,7 +1,7 @@
 # My Personal Website
 
 A website that includes stuff about me, my current projects, and a bit of contact info.\
-Not the best but simple enough.\
+Not the best but simple enough.
 
 ### Running Instructions
 
