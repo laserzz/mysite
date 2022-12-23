@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 
+const port = 3000;
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -18,4 +19,4 @@ app.get('/contact', (req, res) => {
     res.render(path.join(__dirname, 'views/contact.ejs'));
 });
 
-app.listen(3000, () => {console.log('listening on port 3000');});
+app.listen(port, () => {console.log('listening on port', port);});
